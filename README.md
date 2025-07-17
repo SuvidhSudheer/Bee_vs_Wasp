@@ -11,17 +11,16 @@ This project uses jetson-inference and resnet to analyze photos provided for tra
 ## Running this project
 
 1. Clone the Bee_vs_Wasp Project by downloading it from GitHub:
-2. Extract the folder
-3. Open in VS Code
-4. Make sure you have the python add-ons installed
-5. Open a terminal (Terminal > New Terminal)
-6. Navigate into your main folder
-15. Set the NET and DATASET variables:
+2. Open in VS Code
+3. Make sure you have the python add-ons installed
+4. Open a terminal (Terminal > New Terminal)
+5. Navigate into your main folder
+6. Set the NET and DATASET variables:
   NET=models/bee_wasp
   DATASET=data/bee_wasp
-16. Run this command to see how it operates on an image from the test folder.
+7. Run this command to see how it operates on an image from the test folder.
       imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --    labels=$DATASET/labels.txt $DATASET/test/bee or wasp/name of test file.jpg outputname.jpg
-17. Run the same command with whichever file you would want to test.
+8. Run the same command with whichever file you would want to test.
 
 This is a video demonstration of the project
 https://github.com/user-attachments/assets/b7e3e310-e83e-4f58-b25f-bdfc0ea667a1
