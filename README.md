@@ -10,23 +10,15 @@ This project uses jetson-inference and resnet to analyze photos provided for tra
 
 ## Running this project
 
-1. Clone the Jetson-Inference Project by downloading it from GitHub:
+1. Clone the Bee_vs_Wasp Project by downloading it from GitHub:
 2. Extract the folder
 3. Open in VS Code
 4. Make sure you have the python add-ons installed
 5. Open a terminal (Terminal > New Terminal)
-6. Navigate into your Jetson-Inference folder
-7. Make and enter a new directory named build
-8. Run cmake to generate the build files:
-9. Run make to build and install the project:
-10. Add the shared libraries to the linker configuration:
-11. Download the data and model folders
-12. Place data folder in jetson-inference/python/training/classification/data
-13. Place model folder in jetson-inference/python/training/classification/models
-14. Ensure you are in jetson-inference/python/training/classification.
+6. Navigate into your main folder
 15. Set the NET and DATASET variables:
-  NET=models/cat_dog
-  DATASET=data/cat_dog
+  NET=models/bee_wasp
+  DATASET=data/bee_wasp
 16. Run this command to see how it operates on an image from the test folder.
       imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --    labels=$DATASET/labels.txt $DATASET/test/bee or wasp/name of test file.jpg outputname.jpg
 17. Run the same command with whichever file you would want to test.
