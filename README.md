@@ -1,8 +1,7 @@
-# Project Name
+# Bee_vs_Wasp
 
- Add short description of project here > 
+Bee_vs_Wasp is a simple AI recognition project that is used to differentiate between bees and wasps in pictures.
 
-![add image descrition here](direct image link here)
 ![test](https://github.com/user-attachments/assets/d0156474-0088-413f-a743-a38effebdda2)
 
 ## The Algorithm
