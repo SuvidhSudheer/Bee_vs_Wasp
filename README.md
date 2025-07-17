@@ -23,5 +23,7 @@ This project uses jetson-inference and resnet to analyze photos provided for tra
       imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --    labels=$DATASET/labels.txt $DATASET/test/bee or wasp/name of test file.jpg outputname.jpg
 17. Run the same command with whichever file you would want to test.
 
-[View a video explanation here](video link)
+This is a video demonstration of the project
+https://github.com/user-attachments/assets/b7e3e310-e83e-4f58-b25f-bdfc0ea667a1
+
 
