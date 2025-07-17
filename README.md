@@ -25,4 +25,7 @@ This project uses jetson-inference and resnet to analyze photos provided for tra
 This is a video demonstration of the project
 https://drive.google.com/file/d/1eJR9GqqUYFX2ggwznUAw6CWc7mavXVPq/view?usp=drive_link
 
+This is a link to the dataset used:
+https://www.kaggle.com/datasets/jerzydziewierz/bee-vs-wasp
+
 
