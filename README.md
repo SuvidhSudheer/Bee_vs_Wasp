@@ -23,6 +23,6 @@ This project uses jetson-inference and resnet to analyze photos provided for tra
 8. Run the same command with whichever file you would want to test.
 
 This is a video demonstration of the project
-https://github.com/user-attachments/assets/b7e3e310-e83e-4f58-b25f-bdfc0ea667a1
+https://drive.google.com/file/d/1eJR9GqqUYFX2ggwznUAw6CWc7mavXVPq/view?usp=drive_link
 
 
